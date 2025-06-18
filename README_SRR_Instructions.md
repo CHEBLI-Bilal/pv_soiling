@@ -93,17 +93,17 @@ pip install numpy pandas matplotlib openpyxl pvlib
 - **Issue:** Some functions in `pvlib.pvsystem` are not compatible with the SRR model.
 
 #### Solution:
-- Create a **new Python file**: `pvsystemens.py`
+- Create a **new Python file**: `pvsystemtest.py`
 - Copy the compatible code from: [pvlib version 0.6.3 pvsystem](https://pvlib-python.readthedocs.io/en/v0.6.3/_modules/pvlib/pvsystem.html)
 - Remove `Docs` references from the code.
-- Save `pvsystemens.py` in:
+- Save `pvsystemtest.py` in:
   `C:\Python\Python310\Lib\site-packages\pvlib`
 
 #### In your Jupyter Notebook:
 ```python
 import sys
 sys.path.append('C:\\Python\\Python310\\Lib\\site-packages\\pvlib')
-import pvsystemens as ens
+import pvsystemtest as ens
 ```
 
 ---
@@ -117,10 +117,12 @@ import pvsystemens as ens
 
 ## 📚 Additional Resources
 Refer to the full methodology and detailed analysis in:
-👉 [Your AIP Paper (to be added)]
+👉 [ AIP Paper (to be added)]
 
 ---
 
 ## ✉️ Contact
 **Bilal Chebli**
-📧 bilal.chebli@um5.ac.ma
+📧 Bilal.Chebli@Student.HTW-Berlin.de
+📧 bilal.chebli@um5r.ac.ma
+
