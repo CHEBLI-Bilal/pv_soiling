@@ -103,7 +103,7 @@ pip install numpy pandas matplotlib openpyxl pvlib
 ```python
 import sys
 sys.path.append('C:\\Python\\Python310\\Lib\\site-packages\\pvlib')
-import pvsystemtest as ens
+import pvsystemtest as test
 ```
 
 ---
