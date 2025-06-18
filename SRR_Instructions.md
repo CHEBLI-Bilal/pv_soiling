@@ -15,7 +15,7 @@ This guide provides step-by-step instructions for the **preparation, execution, 
   - Global Horizontal Irradiance (GHI) in W/m²
   - Ambient Temperature (Ta) in °C
   - Cell Temperature (Tc) in °C
-  - Wind Speed (WS) in m/s
+  - Wind Speed (Ws) in m/s
 
 ### Naming Conventions:
 - The **Excel file name must not contain spaces.**
